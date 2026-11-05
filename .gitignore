@@ -1,0 +1,28 @@
+# Служебные файлы IDE и редакторов
+.idea/
+.vscode/
+*.iml
+*.suo
+*.user
+.DS_Store
+Thumbs.db
+
+# Результаты сборки и временные файлы
+*.log
+*.tmp
+__pycache__/
+*.pyc
+node_modules/
+dist/
+build/
+
+# Доказательства проверок: папка ведётся локально, содержимое не коммитится
+# (в репозитории остаётся только evidence/README.md)
+evidence/*
+!evidence/README.md
+
+# Никаких секретов
+.env
+*.key
+*.pem
+secrets.*
